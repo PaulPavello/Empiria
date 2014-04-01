@@ -1,10 +1,10 @@
 @CHARSET "UTF-8";
-@font-face
+@font-face /*RESZTA*/
 {
 	font-family: font1;
 	src: url(fonts/font.ttf);
 }
-@font-face
+@font-face /*LOGO*/
 {
 	font-family: font2;
 	src: url(fonts/font2.ttf);
@@ -34,7 +34,7 @@ header
 	height: 50px;
 	min-height: 50px;
 	min-width: 100%;
-	background-color: #222;
+	background-color: #000;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #111;
@@ -60,7 +60,7 @@ footer
 	position: fixed;
 	vertical-align: bottom;
 	bottom: 0px;
-	background-color: #222;
+	background-color: #000;
 	bottom: 0px;
 	
 
@@ -77,7 +77,7 @@ footer
 }
 #footer_text
 {
-	color: #5d5d5d;
+	color: #5c5c5c;
 	font-size: 0.68em;
 	text-align: right;
 	margin-right: 20px;
@@ -89,13 +89,13 @@ footer
 	position: absolute;
 	margin-top: 6px;
 	margin-left: 20px;
-	color: #5d5d5d;
-	background-color: #f0f0f0;
-    background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
-    background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	color: #000000;//#5d5d5d;
+	background-color: #F19D4A;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#F19D4A), color-stop(0.5,#d7883c), color-stop(0.51, #cc853e));
+    background-image: -moz-linear-gradient(#F19D4A 0%, #d7883c 50%, #cc853e 51%);
+    background-image: -o-linear-gradient(#F19D4A 0%, #d7883c 50%, #cc853e 51%);
+    background-image: -ms-linear-gradient(#F19D4A 0%, #d7883c 50%, #cc853e 51%);
+    background-image: linear-gradient(#F19D4A 0%, #d7883c 50%, #cc853e 51%);
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -104,28 +104,19 @@ footer
 }
 #logo_text a
 { text-decoration: none;
-color: #5d5d5d;
+color:  #000000;//#5d5d5d;
 font-family: font2;
 font-size: 0.07em;
 
 }
-#logo_fb
+#logo_contact
 {
 	position: absolute;
-	width: 45px;
 	height: 45px;
 	right: 0;
 	margin-top: 2px;
-	margin-right: 7px;	
-}
-#logo_li
-{
-	position: absolute;
-	width: 45px;
-	height: 45px;
-	right: 50px;
-	margin-top: 3px;
-	margin-right: 7px;	
+	margin-right: 7px;
+	color: #f19d4a;	
 }
 
 
@@ -194,11 +185,11 @@ input, textarea
 
 .fancyNav li{
     background-color: #f0f0f0;
-    background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
-    background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
-    background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#f19d4a), color-stop(0.5,#d7883c), color-stop(0.51, #cc853e));
+    background-image: -moz-linear-gradient(#f19d4a 0%, #d7883c 50%, #cc853e 51%);
+    background-image: -o-linear-gradient(#f19d4a 0%, #d7883c 50%, #cc853e 51%);
+    background-image: -ms-linear-gradient(#f19d4a 0%, #d7883c 50%, #cc853e 51%);
+    background-image: linear-gradient(#f19d4a 0%, #d7883c 50%, #cc853e 51%);
     border-right: 1px solid rgba(9, 9, 9, 0.125);
     box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
     -moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
@@ -276,7 +267,7 @@ input, textarea
 }
 
 .fancyNav li a{
-    color: #5d5d5d;
+    color: #000;//#5d5d5d;
     display: inline-block;
     font: font1;
     padding: 12px 25px 14px;

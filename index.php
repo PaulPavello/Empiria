@@ -42,12 +42,7 @@
 	<body>
 		<header id="menu">
 			<div id="logo_text"><a href="#home">empiriasilesia.pl</a></div>
-			<div id="logo_fb"><a href="" target="_blank">
-        	<img src='img/facebook.png' height="45">
-			</a></div>
-			<div id="logo_li"><a href="" target="_blank">
-        	<img src='img/linkedin.png' height="45">
-			</a></div>
+			<div id="logo_contact">Empiria - Jacek Eichhorn<br/>Tel. 600-559-738</div>
 			<nav>
 	            <ul class="fancyNav">
 	                <li id="home"><a href="index.php#home" class="homeIcon">Home</a></li>
@@ -72,7 +67,7 @@
 			<div class="section" id="section1">
 				<h1>Oferta</h1>
 				<p>Podstawowy zakres prac:<p>
-					<p><ul>
+					<ul style="text-align: left; padding-left: 100px;">
 						<li>usługi malarskie (ściany, sufity, okna, drzwi, grzejniki)</li>
 						<li>tapetowanie ścian i sufitów</li>
 						<li>artystyczne dekorowanie ścian</li>
@@ -92,43 +87,20 @@
 						<li>instalacje elektryczne (nowe i przeróbki)</li>
 						<li>montaż osprzętu elektrycznego (oświetlenie, gniazdka itp.)</li>
 						<li>instalacje wodno-kanalizacyjne (nowe i przeróbki)</li>	
-					</ul></p>
+					</ul>
 					<p>Oraz wiele innych prac na życzenie, kierując się zasadą indywidualnego i elastycznego
 						 podejścia do każdego klienta.</p>
 			</div>
 			<div class="section" id="section2">
-				<!-- <div class='slide'>
-					<h1>Łazienki</h1>
-					<p>Test</p>
-					</div>
-				<div class='slide' id="#projects">
-					<h1>Kuchnie</h1>
-					<p>Test</p>
-					</div>
-				<div class='slide' id="#projects">
-					<h1>Pokoje</h1>
-					<p>Test</p>
-					</div>
-				<div class='slide' id="#projects">
-					<h1>Przedpokoje</h1>
-					<p>Test</p>
-					</div>
-				<div class='slide' id="#projects">
-					<h1>Balkony</h1>
-					<p>Test</p>
-				</div>
-				<div class='slide' id="#projects">
-					<h1>Inne prace</h1>
-					<p>Test</p>
-				</div> -->
 				<?php include_once 'galeria.php';?>
 			</div>
 			<div class="section" id="section3">
 				<h1>Usługi remontowe Empiria</h1>
-				<p>Jacek Eichhorn</p>
-				<p>41-500, Chorzów</p>
-				<p>NIP 627-143-67-41</p>
-				<p>Tel. 600 559 738</p>
+				<p style="text-align: center;">Jacek Eichhorn</p>
+				<p style="text-align: center;">41-500, Chorzów</p>
+				<p style="text-align: center;">NIP 627-143-67-41</p>
+				<p style="text-align: center;">Tel. 600 559 738</p>
+				<img src="img/qrcode.png" height="200">
 			</div>
 		</section>
 		<footer>
